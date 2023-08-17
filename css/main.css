@@ -76,6 +76,8 @@ body, html{
      padding-bottom:20px;
      text-align:center;
      margin:10px;
+     margin-left: 25px;
+     margin-right:auto;
      border-radius:8px;
  
  }
@@ -108,10 +110,10 @@ body, html{
  .main-articles{
      background-color:rgb(227, 217, 200);
      border-radius: 8px;
-     border:2px brown ;
+     border:2px rgb(194, 172, 157) solid;
      padding:10px;
      margin: 10px;
-     height: 420px
+     height: 460px
  }
  
  #Family p{
@@ -124,11 +126,25 @@ body, html{
      display:inline;
      width: 450px;
      border-radius: 8px;
-     border:2px rgb(194, 173, 147) solid;
+     border:2px rgb(194, 172, 157) solid;
      float: left;
      margin-bottom: 15px;
      margin-right:30px;
  
+ }
+
+ .main-articles strong{
+    color:rgb(160, 132, 113);
+    font-family:Geneva, Tahoma, sans-serif;
+    font-size: large;
+
+ }
+
+
+
+ #contact-form label{
+   /* ! -- color:blueviolet; --> */
+    
  }
  
  footer{
